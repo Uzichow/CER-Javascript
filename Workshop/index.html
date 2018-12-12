@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="fr">
+    <head>
+       
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body id="body" class="jour">
+    
+        <script scr="JavaS.js" type="text/javascript"></script>
+        <main>
+            <article>
+                <header>
+                    <h1 align="center">Cycle jour/nuit </h1>
+                    <p align="center">
+                    <img src="Image/Jour_Nuit.jpeg" height="350" width="400">
+                    </p>
+                    <button id="bn" onclick="passagenuit();" class="favorite styled"> Nuit </button> 
+                    <button id="bj" onclick="passagejour();" class="favorite styled"> Jour </button>
+                    <button>oui</button>
+                </header>
+            </article>
+        </main>
+        <script>
+            function passagenuit(){
+                document.getElementById('body').className='nuit';
+                document.getElementById('bn').className='buttonN';
+                document.getElementById('bj').className='buttonN';
+            }
+            function passagejour() {
+                document.getElementById('body').className='jour';
+                document.getElementById('bn').className='buttonJ';
+                document.getElementById('bj').className='buttonJ';
+            }
+        </script>
+    </body>

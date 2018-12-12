@@ -1,0 +1,51 @@
+
+/*Pour le code embedded*/
+body {
+  min-height:150px;
+    text-align: center;
+}
+button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 40px;
+    font-size: 1rem;
+   
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: black;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(10, 20, 300, 1);
+}
+
+.styled:active {
+    background-color: red;
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.jour{
+    background-color: white;
+    color: black;
+}
+
+.nuit{
+    background-color: black;
+    color: white;
+}
+
+.buttonN{
+    background-color: white;
+}
+.buttonJ{
+    background-color: black;
+}
